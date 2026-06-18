@@ -16,7 +16,7 @@ export default function CoreTechnologiesSection() {
       <p className="text-paragraph-sm font-semibold tracking-widest text-[#5c5a52] uppercase">
         Core Technologies
       </p>
-      <div className="flex items-center space-x-6">
+      <div className="flex flex-wrap items-center gap-6">
         <Tooltip text="TypeScript">
           <Image
             className="h-7 w-7"
