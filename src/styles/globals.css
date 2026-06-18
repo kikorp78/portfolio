@@ -1,0 +1,116 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Text Display */
+
+  --text-display-xl: 64px;
+  --text-display-xl--line-height: 76px;
+  --text-display-xl--letter-spacing: 0;
+
+  --text-display-lg: 52px;
+  --text-display-lg--line-height: 56px;
+  --text-display-lg--letter-spacing: 0;
+
+  --text-display-sm: 44px;
+  --text-display-sm--line-height: 48px;
+  --text-display-sm--letter-spacing: 0;
+
+  /* Text Paragraph */
+
+  --text-paragraph-lg: 18px;
+  --text-paragraph-lg--line-height: 28px;
+  --text-paragraph-lg--letter-spacing: 0;
+
+  --text-paragraph-md: 16px;
+  --text-paragraph-md--line-height: 24px;
+  --text-paragraph-md--letter-spacing: 0;
+
+  --text-paragraph-sm: 14px;
+  --text-paragraph-sm--line-height: 20px;
+  --text-paragraph-sm--letter-spacing: 0;
+
+  --text-paragraph-xs: 12px;
+  --text-paragraph-xs--line-height: 18px;
+  --text-paragraph-xs--letter-spacing: 0;
+
+  --text-paragraph-2xs: 10px;
+  --text-paragraph-2xs--line-height: 16px;
+  --text-paragraph-2xs--letter-spacing: 0;
+
+  /* Text Overline */
+
+  --text-overline-lg: 14px;
+  --text-overline-lg--font-weight: 700;
+  --text-overline-lg--line-height: 20px;
+  --text-overline-lg--letter-spacing: 0.15em;
+
+  --text-overline-sm: 12px;
+  --text-overline-sm--font-weight: 700;
+  --text-overline-sm--line-height: 20px;
+  --text-overline-sm--letter-spacing: 0.15em;
+
+  /* Text Desktop Heading */
+
+  --text-desktop-h1: 40px;
+  --text-desktop-h1--line-height: 48px;
+  --text-desktop-h1--letter-spacing: -0.02em;
+
+  --text-desktop-h2: 36px;
+  --text-desktop-h2--line-height: 44px;
+  --text-desktop-h2--letter-spacing: -0.02em;
+
+  --text-desktop-h3: 32px;
+  --text-desktop-h3--line-height: 40px;
+  --text-desktop-h3--letter-spacing: -0.02em;
+
+  --text-desktop-h4: 28px;
+  --text-desktop-h4--line-height: 36px;
+  --text-desktop-h4--letter-spacing: -0.02em;
+
+  --text-desktop-h5: 24px;
+  --text-desktop-h5--line-height: 32px;
+  --text-desktop-h5--letter-spacing: -0.02em;
+
+  --text-desktop-h6: 20px;
+  --text-desktop-h6--line-height: 28px;
+  --text-desktop-h6--letter-spacing: -0.02em;
+
+  /* Text Mobile Heading */
+
+  --text-mobile-h1: 36px;
+  --text-mobile-h1--line-height: 44px;
+  --text-mobile-h1--letter-spacing: 0;
+
+  --text-mobile-h2: 32px;
+  --text-mobile-h2--line-height: 40px;
+  --text-mobile-h2--letter-spacing: 0;
+
+  --text-mobile-h3: 28px;
+  --text-mobile-h3--line-height: 36px;
+  --text-mobile-h3--letter-spacing: 0;
+
+  --text-mobile-h4: 24px;
+  --text-mobile-h4--line-height: 32px;
+  --text-mobile-h4--letter-spacing: 0;
+
+  --text-mobile-h5: 20px;
+  --text-mobile-h5--line-height: 28px;
+  --text-mobile-h5--letter-spacing: 0;
+
+  --text-mobile-h6: 18px;
+  --text-mobile-h6--line-height: 24px;
+  --text-mobile-h6--letter-spacing: 0;
+
+  /* Font Family */
+
+  --font-geist: var(--font-geist), sans-serif;
+  --font-geist-mono: var(--font-geist-mono), sans-serif;
+  --font-fraunces: var(--font-fraunces), sans-serif;
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
