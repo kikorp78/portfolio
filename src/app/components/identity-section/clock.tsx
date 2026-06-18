@@ -29,6 +29,7 @@ export default function Clock() {
     <div>
       <p className="text-paragraph-sm font-geist-mono text-[#5c5a52]">
         {time.toLocaleTimeString('en-US', {
+          timeZone: 'Etc/GMT-2',
           hour: 'numeric',
           minute: '2-digit'
         })}{' '}
